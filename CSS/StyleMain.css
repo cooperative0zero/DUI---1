@@ -1,0 +1,48 @@
+/*body{
+    font-family: "Titillium Web", sans-serif;
+    margin:auto;
+}
+
+.header{
+    background-image: url("Images/mountains.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px; 
+}
+
+h1.Logo{
+    color:rgb(104, 103, 103);
+}
+.Logo span{
+    color:#5b4295;
+}
+
+.LogoPanel{
+}
+
+.languages{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:23px;
+    padding: 0px;
+    color:#959595;
+    font-size: 14px;
+}
+
+.languages li{
+    display: inline;
+}
+.languages li+li ::before{
+    content: '/';
+    padding-right: 8px;
+    padding-left:8px;
+}

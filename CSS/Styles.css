@@ -1,0 +1,174 @@
+body{
+font-family: "Titillium Web", sans-serif;
+margin:0;
+}
+.header{
+    display:flex;
+    flex-flow:row;
+}
+.header-container{
+    display: flex;
+}
+h1.Logo{
+margin-top: 85px;
+margin-bottom:0px;
+color:rgb(104, 103, 103);
+}
+.LogoPanel{
+    display: flex;
+    flex-direction: column;
+    margin-left:200px;
+}
+.languages li{
+    display: inline;
+}
+h1 span{
+    color:#5b4295;
+}
+
+ul.languages{
+    margin-top:23px;
+    padding: 0px;
+    color:#959595;
+    font-size: 14px;
+}
+.languages li+li ::before{
+    content: '/';
+    padding-right: 8px;
+    padding-left:8px;
+}
+.NavigationPanel{
+    display: flex;
+    flex-flow:row;
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+    margin-left:190px;
+    margin-right: 200px;
+}
+.Loginbtn{
+margin-left:48px;
+border:none;
+border-radius: 20px;
+background-color: white;
+margin-top: 75px;
+height:40px;
+width:94px;
+font-size: 16px;
+font-weight: 500;
+}
+
+.Loginbtn:hover{
+    font-weight: 600;
+}
+.Signupbtn{
+margin-top: 75px;
+border-radius:20px;
+border:none;
+height:40px;
+width:94px;
+font-size:16px;
+font-weight: 700;
+color:white;
+background: linear-gradient(to bottom right,#582c7e,#6a0de9);
+box-shadow: 0 2px 5px 1px #6e7eb8, 0 10px 20px 4px #99a8d2;
+}
+.Signupbtn:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+}
+a.nav{
+    padding-right:28px;
+    text-decoration: none;
+    color:Black;
+    margin-top: 85px;
+}
+a.nav:hover{
+    font-weight: bold;
+}
+a.language{
+    color:#959595;
+    text-decoration: none; 
+}
+a.language:hover{
+    border-bottom:1px solid #959595;
+    font-weight: bold;
+}
+
+.about-container{
+    height:530px;
+    flex-flow: column;
+    justify-content: center;
+    display: flex;
+}
+.aboutbuttons{
+    display: flex;
+    margin-top: 66px;
+    justify-content: space-around;
+}
+div.aboutbuttons{
+    width:416px;
+}
+.accountbtn{
+    width: 246px;
+    height: 56px;
+    border:none;
+    border-radius: 50px;
+    font-family: inherit;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #646c92, #636890 25%, #625583 50%, #614075 75%, #5f2d69);
+    border-radius: 50px;
+    box-shadow: 0 2px 4px 1px #5d689c, 0 6px 18px 4px #6789d7;
+}
+.iosbtn{
+    width: 46px;
+    height: 46px;
+    border:none;
+    border-radius: 50%;
+    background-color: rgba(95, 38, 106, 0.8);
+   text-align: center;
+}
+.androidbtn{
+    width: 46px;
+    height: 46px;
+    border:none;
+    border-radius: 50%;
+    background-color:rgba(95, 38, 106, 0.8);
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: inherit;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color:#6f6f6e;
+}
+
+.about span{
+    color:red;
+}
+.about p{
+    font-size:32px;
+    margin-top: 15px;
+    margin-bottom:0px;
+}
+.aboutbtncontainer{
+    display: flex;
+    justify-content: center;
+}
+.androidbtn:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+}
+.iosbtn:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+}
+.accountbtn:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+}
+
+
