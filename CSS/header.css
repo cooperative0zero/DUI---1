@@ -5,6 +5,7 @@ body{
 }
 
 .header{
+    width: 1800px;
     display:flex;
     flex-direction: column;
     background-image: url(Images/mountains.png);
@@ -122,7 +123,7 @@ box-shadow: 0 2px 5px 1px #6e7eb8, 0 10px 20px 4px #99a8d2;
     box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
 }
 .about-container{
-    height:837px;
+    height:760px;
     width:1150px;
     display: flex;
     justify-content: space-between;
