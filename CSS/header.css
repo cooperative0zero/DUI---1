@@ -1,0 +1,229 @@
+
+body{
+    font-family: "Titillium Web", sans-serif;
+    margin: auto;
+}
+
+.header{
+    width: 1800px;
+    display:flex;
+    flex-direction: column;
+    background-image: url(Images/mountains.png);
+    background-repeat: no-repeat;
+}
+.header-container{
+    height: 152px;
+    width: 77%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.LogoPanel{
+ width:236px;
+ height:152px;  
+ display: flex;
+ flex-flow:column;
+ justify-content: flex-end; 
+}
+.Logo{
+    height:22px;
+}
+h1.Logo{
+ color:rgb(104, 103, 103);
+ margin-bottom: 29px;
+ font-size:30px;
+ font-weight: 700;
+}
+
+.languages{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0px;
+    height:14px;
+}
+.languages li{
+    display: inline;
+
+}
+ul.languages{
+    padding: 0px;
+    color:#959595;
+    font-size: 14px;
+}
+.languages li+li::before{
+    content: '/';
+    padding-right: 8px;
+    padding-left:8px;
+}
+a.language{
+    color:#959595;
+    text-decoration: none; 
+}
+.language:hover{
+    border-bottom:1px solid #959595;
+    font-weight: bold;
+}
+.Navigation-container{
+    width:636px;
+    height:152px;
+    display: flex;
+    flex-flow:column;
+    justify-content:flex-end;
+}
+.navigation-panel{
+    height: 84px;
+    display: flex;
+    flex-flow:row;
+    justify-content: space-between;
+}
+.navigation{
+    width:415px;
+    display: flex;
+    justify-content: space-between;
+}
+a.nav{
+    text-decoration: none;
+    color:Black;
+    padding-top: 14px;
+}
+a.nav:hover{
+    font-weight: bold;
+}
+.Button-panel{
+    width:190px;
+    display: flex;
+    justify-content: space-between;
+}
+.LogIn{
+width:84px;
+border:none;
+height: 20px;
+margin-top: 14px;
+border-radius: 20px;
+background-color: white;
+font-size: 16px;
+font-weight: 500;
+}
+.LogIn:hover{
+    font-weight: 600;
+}
+.SignUp{
+width:96px;
+border-radius:20px;
+border:none;
+margin-top:5px;
+height:40px;
+font-size:16px;
+font-weight: 700;
+color:white;
+background: linear-gradient(to bottom right,#582c7e,#6a0de9);
+box-shadow: 0 2px 5px 1px #6e7eb8, 0 10px 20px 4px #99a8d2;
+}
+.SignUp:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+}
+.about-container{
+    height:760px;
+    width:1150px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left:22%;
+    padding-right:30px;
+    margin-right:0;
+
+}
+.About{
+    height:459px;
+}
+h2.secure{
+    margin-top:0px;
+    padding-top:147px;
+    font-size: 60px;
+    margin:0px;
+    height:76px;
+    letter-spacing: 0.25px;
+    font-family: "Titillium Web", sans-serif;
+    color: #6f6f6e;
+}
+.About p{
+font-size: 32px;
+height: 48.8px;
+font-family: "Titillium Web", sans-serif;
+letter-spacing: 0.4px;
+padding-top:10px;
+color: #6f6f6e;
+text-align:center;
+margin:0;
+}
+.About span{
+    color: #fc5a5d;
+}
+.AboutButtons{
+    margin-top:66px;
+    display: flex;
+    justify-content: center;
+}
+.accountbtn{
+        width: 246px;
+        height: 56px;
+        border:none;
+        border-radius: 50px;
+        font-family: inherit;
+        color:white;
+        font-size: 18px;
+        font-weight: bold;
+        background: linear-gradient(90deg, #646c92, #636890 25%, #625583 50%, #614075 75%, #5f2d69);
+        border-radius: 50px;
+        box-shadow: 0 2px 4px 1px #5d689c, 0 6px 18px 4px #6789d7;
+}
+.iosbtn{
+    width: 46px;
+    height: 46px;
+    border:none;
+    border-radius: 50%;
+    background-color: rgba(95, 38, 106, 0.8);
+   text-align: center;
+}
+.androidbtn{
+    width: 46px;
+    height: 46px;
+    border:none;
+    border-radius: 50%;
+    background-color:rgba(95, 38, 106, 0.8);
+    text-align: center;
+}
+.androidbtn:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+}
+.iosbtn:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+}
+.accountbtn:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+}
+.aboutbtn-container{
+    width:384px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-networks{
+    display: flex;
+    width:20px;
+    flex-flow:column;
+    justify-content: flex-start;
+}
+.Google{
+margin-bottom:0px;
+margin-top:167px;
+}
+.social{
+    background: none;
+    margin:0px;
+    padding-top:10px;
+}
+
+.fa-brands:hover{
+    box-shadow: 0px 0px 7px 1px #7a97ec;
+    background: none;
+}
