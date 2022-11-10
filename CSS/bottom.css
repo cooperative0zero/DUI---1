@@ -95,7 +95,14 @@ li{
     margin-bottom:192px;
     display:flex;
     float: right;
-    background-image:url(Images/helper-label.png);
+    background-image:url(Images/helper-labels.png);
+    padding-top:5px;
+    
+   
+    
+}
+.helpersl a{
+    cursor:default;
 }
 /*field of lists(Company,Legal,NeutronMail)*/
 .lists{
@@ -217,4 +224,142 @@ li{
 
 .allrights p{
     margin:0;
+}
+/* helpers buttons-links*/
+.help-list{
+    display:flex;
+    padding:0;
+    margin-top:15px;
+    margin-bottom:0;
+}
+.venture{
+    margin-left:22px;
+    
+}
+.venture button{
+    width:75px;
+    height:52px;
+    background-color: transparent;
+    border:none;
+
+}
+
+.deltalis{
+    margin-top:5px;
+    margin-left:66px;
+}
+.deltalis button{
+    width:67px;
+    height:52px;
+    background-color: transparent;
+    border:none;
+
+}
+.fongit{
+    margin-top:7px;
+    margin-left:54px;
+
+}
+.fongit button{
+    width:102px;
+    height:47px;
+    background-color: transparent;
+    border:none;
+
+}
+.quovadis{
+    margin-top:10px;
+    margin-left:28px;
+}
+.quovadis button{
+    width:120px;
+    height:38px;
+    background-color: transparent;
+    border:none;
+
+}
+.cyberkov{
+    margin-top:7px;
+    margin-left:55px;
+}
+.cyberkov button{
+    width:45px;
+    height:43px;
+    background-color: transparent;
+    border:none;
+
+}
+.radware{
+    margin-top:15px;
+    margin-left:50px;
+    
+   
+}
+.radware button{
+    box-sizing:inherit;
+    width:123px;
+    height:30px;
+    background-color: transparent;
+    border:none;
+
+
+}
+.ipmax{
+    margin-top:5px;
+    margin-left:37px;
+}
+.ipmax button{
+    box-sizing:inherit;
+    width:49px;
+    height:47px;
+    background-color: transparent;
+    border:none;
+
+}
+.venture button:hover {
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+.deltalis button:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+.fongit button:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+.quovadis button:hover {
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+.cyberkov button:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+.radware button:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+.ipmax button:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+/* gray background gradient*/
+.cover-gradient{
+    position:absolute;
+    margin-top:-580px;
+    width:1800px;
+    height:1580px;
+    z-index:-2; 
+    overflow:hidden; 
+}
+.gradient{
+    position:absolute;
+    margin-top:150px;
+    z-index:-1;
+    width:2000px;
+    height:1800px;
+    background: linear-gradient(60deg,#fdfdfd,#efefef);
+    transform: rotate(-8deg);
+    overflow: hidden;
 }

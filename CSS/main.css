@@ -320,6 +320,7 @@ strong.StrongRedColor{
 }
 .inf3{
     width: 1120px;
+    position: relative;
 }
 .inf3 h1{
     text-align: right;
@@ -381,4 +382,13 @@ strong.StrongRedColor{
 }
 .LearnMore:hover{
     box-shadow: 0 2px 5px 1px #a0b4ee, 0 0px 20px 4px #8ca6f2;
+}
+.line4{
+    width: 1400px;
+    height: 1px;
+    border-bottom: 1px solid #959595;
+    position: relative;
+    top: 150px;
+    left: 400px;
+    z-index: -1;
 }
