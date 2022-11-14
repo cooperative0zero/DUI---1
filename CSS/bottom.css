@@ -18,6 +18,8 @@ body{
 }
 .textWho{
     margin:0;
+    padding-right:15px;
+    padding-top:15px;
     text-align:right;
     color: #7c7c7c;;
     font-size:14px;
@@ -61,6 +63,7 @@ body{
 }
 
 .center{
+    margin-top:43px;
     flex-flow: row;
     justify-content: center;
     display: flex;
@@ -82,9 +85,11 @@ li{
 .helpers{
     width:1400px;
     height:441px;
-    padding-right:15px;
-    padding-top: 15px;
-    align-content: flex-start;
+    display:grid;
+    padding:0;
+    grid-template-columns: 1400px;
+    grid-template-rows: 20px 80px 487px;
+    align-content: right;
     border-top: 1px solid #b7b8b8;
     border-right: 1px solid #b7b8b8;
 }
@@ -92,11 +97,11 @@ li{
 .helpersl{
     width:920px;
     height:80px;
-    margin-bottom:192px;
+    justify-self:end;
     display:flex;
-    float: right;
     background-image:url(Images/helper-labels.png);
     padding-top:5px;
+    padding-right:5px;
     
    
     
@@ -106,10 +111,17 @@ li{
 }
 /*field of lists(Company,Legal,NeutronMail)*/
 .lists{
+    align-self:end;
+    justify-content:end;
     font-weight:normal;
     text-align:right;
     width:1400px;
-    height:321px;
+    height:300px;
+}
+.tabl-row-grid{
+    display:grid;
+    grid-template-columns: 535px 340px 300px 200px; 
+    grid-template-rows: 200px 100px;
 }
 .lists-text{
     font-size:14px;
@@ -127,7 +139,7 @@ li{
 }
 /*decoration of Company list*/
 .company-list{
-    padding-left:300px;
+    height:300px;
     padding-right:15px;
     text-align:right;
     border-right: 1px solid #b7b8b8;
@@ -138,7 +150,6 @@ li{
 }
 /*decoration of Legal list*/
 .legal-list{
-    padding-left:90px;
     text-align:right;
 }
 .legal-list a{
@@ -156,8 +167,8 @@ li{
 
 /*decoration of social networks list*/
 .sn-list{
-    margin-top:85px; 
-    margin-left:135px;
+    padding:0;
+    justify-content: start;  
     text-align:left;    
     display:flex;
     font-size:12px;
@@ -215,7 +226,6 @@ li{
 /*decoration of text "© 2017 Neutron..."*/
 .allrights{
     text-align:left;
-    margin-left:175px;
     font-size:12px;
     font-weight:normal;
     color:#535353;
@@ -224,6 +234,11 @@ li{
 
 .allrights p{
     margin:0;
+}
+/*positioning of social network lists and all rights text*/
+.sn-allrights{
+    margin-top:45px;
+    float:right;
 }
 /* helpers buttons-links*/
 .help-list{
@@ -347,16 +362,16 @@ li{
 /* gray background gradient*/
 .cover-gradient{
     position:absolute;
-    margin-top:-580px;
+    margin-top:-620px;
     width:1800px;
-    height:1580px;
+    height:1490px;
     z-index:-2; 
     overflow:hidden; 
 }
 .gradient{
     position:absolute;
-    margin-top:150px;
     z-index:-1;
+    margin-top:150px;
     width:2000px;
     height:1800px;
     background: linear-gradient(60deg,#fdfdfd,#efefef);
