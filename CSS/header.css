@@ -14,9 +14,13 @@ body{
 .header-container{
     height: 152px;
     width: 1400px;
-    margin-left:200px;
     display: flex;
     justify-content: space-between;
+}
+.headeralign{
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
 }
 .LogoPanel{
  width:245px;
@@ -124,27 +128,31 @@ box-shadow: 0 2px 5px 1px #6e7eb8, 0 10px 20px 4px #99a8d2;
 .SignUp:hover{
     box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
 }
+.about-section{
+    display: flex;
+    flex-flow:row;
+    justify-content: flex-end;
+    padding-right:30px;
+}
 .about-container{
     height:760px;
     width: 1250px;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-left:520px;
-    padding-right:30px;
-    margin-right:0;
-
 }
 .About{
-    height:459px;
     display: flex;
     flex-flow:column;
 }
+.securelogo{
+    height:223px;
+    display: flex;
+    flex-flow:column;
+    justify-content: flex-end;
+}
 h2.secure{
-    margin-top:0px;
-    padding-top:147px;
     font-size: 60px;
-    margin:0px;
     height:76px;
     letter-spacing: 0.25px;
     font-family: "Titillium Web", sans-serif;
@@ -152,7 +160,7 @@ h2.secure{
 }
 .About p{
 font-size: 36px;
-height: 48.8px;
+height: 114.8px;
 font-family: "Titillium Web", sans-serif;
 letter-spacing: 0.4px;
 padding-top:10px;
@@ -164,7 +172,6 @@ margin:0;
     color: #fc5a5d;
 }
 .AboutButtons{
-    margin-top:66px;
     display: flex;
     justify-content: center;
     z-index: 1;
@@ -248,8 +255,10 @@ margin:0;
     justify-content: flex-start;
 }
 .Google{
-margin-bottom:0px;
-margin-top:167px;
+    height: 192.6px;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
 }
 .social{
     background: none;
