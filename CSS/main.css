@@ -4,12 +4,18 @@
   }
   
 main{
+    margin:auto;
     width:1800px;
 }
+.group3Container{
+    display: flex;
+    width: 1560px;
+    justify-content: end;
+}
 .group3{
-    padding-left: 18%;
-    padding-right: 13%;
-    display: flex; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 90px; 
     justify-content: space-between;   
     align-items: start;
     position: relative;
@@ -55,8 +61,8 @@ article.memberGroup3 div{
 }
 div.line1{
     position: absolute;
-    top: -133px;
-    left: 650px;
+    top: -130px;
+    left: 325px;
     width: 1px;
     height: 210px;
     border-left: 1px solid #959595;
@@ -64,7 +70,7 @@ div.line1{
 div.line2{
     position: absolute;
     top: 9px;
-    left: 1105px;
+    left: 770px;
     width: 1px;
     height: 435px;
     border-left: 1px solid #959595;
@@ -72,7 +78,7 @@ div.line2{
 div.line3{
     position: absolute;
     top: 9px;
-    right: 0px;
+    right: -240px;
     height: 1px;
     width: 190px;
     border-top: 1px solid #959595;
@@ -248,18 +254,23 @@ strong.StrongRedColor{
     box-shadow: 0 2px 5px 1px #a0b4ee, 0 0px 20px 4px #8ca6f2;
 }
 
+.wrapperContainer{
+    display: flex;
+    width: 945px;
+    justify-content: end;
+}
+
 .wrapper {
 	height: 200px;
 	position: relative;
 	width: 580px;
-    margin-left: 365px;
 }
 .slider {
 	overflow: hidden;
     height: inherit;
 	width: inherit;
     margin-left: 35px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .wrapper > input {
 	display: none;
@@ -287,7 +298,7 @@ strong.StrongRedColor{
 .wrapper .controls {
     z-index: 2;
 	left:0;
-    top:30px;
+    top:70px;
     display: flex;
     flex-direction: column;
     width: 13px;
@@ -319,7 +330,6 @@ strong.StrongRedColor{
 	z-index: 1;
 }
 .inf3{
-    width: 1120px;
     position: relative;
 }
 .inf3 h1{
@@ -337,14 +347,20 @@ strong.StrongRedColor{
     width: 450px;
     color: #959595;
     margin: 0;
-    margin-left: 670px;
     font-weight: 600;
     line-height: 22px;
+}
+.buttonscont{
+    display: grid;
+    justify-content: end;
+}
+.buttons-to-download-cont{
+    display: flex;
+    justify-content: end;
 }
 .buttons-to-download{
     width: 375px;
     margin:0;
-    margin-left: 745px;
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
@@ -391,4 +407,8 @@ strong.StrongRedColor{
     top: 150px;
     left: 400px;
     z-index: -1;
+}
+.inf3cont{
+    display: grid;
+    grid-template-columns: 1120px 1fr;
 }
