@@ -84,6 +84,8 @@ div.line3{
     border-top: 1px solid #959595;
 }
 div.PhysicalSecurity{
+    display: grid;
+    justify-content: end;
     box-sizing: border-box;
     width:1145px;
     padding-right: 20px;
@@ -106,7 +108,7 @@ div.PhysicalSecurity p.inf1{
     letter-spacing: 0.1px;
     text-align: right;
     line-height: 1;
-    padding-left: 390px;
+    width: 620px;
     right: inherit;
     margin: 0;
 }
@@ -404,7 +406,7 @@ strong.StrongRedColor{
     height: 1px;
     border-bottom: 1px solid #959595;
     position: relative;
-    top: 150px;
+    top: 190px;
     left: 400px;
     z-index: -1;
 }
