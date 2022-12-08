@@ -1,9 +1,10 @@
-
 body{
     font-family: "Titillium Web", sans-serif;
     margin: auto;
 }
-
+.Logo span{
+    color:rgb(101,16,180);
+}
 .header{
     margin:auto;
     width: 1800px;
@@ -235,6 +236,14 @@ margin:0;
     text-align: center;
     margin-top:5px;
 }
+.androidbtn i{
+    font-size:20px; 
+    color:white;
+}
+.iosbtn i{
+    font-size:20px; 
+    color:white;
+}
 .androidbtn:hover{
     box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
 }
@@ -266,8 +275,18 @@ margin:0;
     margin:0px;
     padding-top:10px;
 }
-
+.social i{
+    font-size: 22px;
+    color:gray;
+}
+.Google i{
+    font-size: 22px;
+    color:gray;
+}
 .fa-brands:hover{
     box-shadow: 0px 0px 7px 1px #7a97ec;
     background: none;
+}
+.LogIn i{
+    color:blueviolet;
 }

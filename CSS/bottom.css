@@ -378,3 +378,8 @@ li{
     transform: rotate(-8deg);
     overflow: hidden;
 }
+
+.footer-container{
+    margin:auto;
+    width:1800px;
+}
